@@ -8,8 +8,8 @@ div{
 .nombre{
     margin-left: 100px;
     font-size: 30px;
-    
-    
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
 }
 
 .barra{
@@ -17,6 +17,9 @@ div{
     margin-top: 1.5%;
     margin-bottom: 2%;
     border-radius: 1%;
+    border-color: indigo;
+    border-radius: 10px;
+    
 }
 
 .buscador{
