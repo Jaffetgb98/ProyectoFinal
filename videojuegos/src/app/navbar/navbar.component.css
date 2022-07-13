@@ -1,16 +1,18 @@
 div{
-    background-color: #207d7f;
-    background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23050407' fill-opacity='0.4'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-color: #207d7a;
+background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23000000' fill-opacity='0.4'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
     color: white;
     display: flex;
     flex-direction: row;
 }
+
 
 .nombre{
     margin-left: 100px;
     font-size: 30px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
+    cursor: default;
 }
 
 .barra{
@@ -19,13 +21,17 @@ div{
     margin-bottom: 2%;
     border-radius: 1%;
     border-color: indigo;
-    border-radius: 10px;
+    border-radius: 3px;
+    
     
 }
 
 .buscador{
-    margin-left: 8px;
-    margin-top: 1.5%;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    transition: all 400ms ease;
+    margin-left: 2px;
+    margin-top: 24px;
     margin-bottom: 1.5%;
     width: 100px;
     height: 30px;
@@ -35,4 +41,9 @@ div{
     border-bottom-right-radius: 100px;
     background-color: black;
     color: white;
+}
+
+.buscador:hover{
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
 }
