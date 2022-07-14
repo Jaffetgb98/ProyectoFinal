@@ -8,6 +8,7 @@ import { PrincipalComponent } from './principal/principal.component';
 import { TarjetasComponent } from './tarjetas/tarjetas.component';
 import { Enlace1Component } from './enlace1/enlace1.component';
 import { InfoGameComponent } from './info-game/info-game.component';
+import { BusquedaComponent } from './busqueda/busqueda.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { InfoGameComponent } from './info-game/info-game.component';
     PrincipalComponent,
     TarjetasComponent,
     Enlace1Component,
-    InfoGameComponent
+    InfoGameComponent,
+    BusquedaComponent
   ],
   imports: [
     BrowserModule,
