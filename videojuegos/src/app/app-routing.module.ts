@@ -8,8 +8,8 @@ import { TarjetasComponent } from './tarjetas/tarjetas.component';
 const routes: Routes = [
   {path:"link1", component:Enlace1Component},
   {path:"nav", component:NavbarComponent},
-  {path:"pirncipal", component:PrincipalComponent},
-  {path:"tarjetas", component:TarjetasComponent}
+  {path:"principal", component:PrincipalComponent},
+  {path:"", component:PrincipalComponent}
 ];
 
 @NgModule({
