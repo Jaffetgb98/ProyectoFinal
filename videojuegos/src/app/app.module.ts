@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { PrincipalComponent } from './principal/principal.component';
 import { TarjetasComponent } from './tarjetas/tarjetas.component';
 import { Enlace1Component } from './enlace1/enlace1.component';
+import { InfoGameComponent } from './info-game/info-game.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { Enlace1Component } from './enlace1/enlace1.component';
     NavbarComponent,
     PrincipalComponent,
     TarjetasComponent,
-    Enlace1Component
+    Enlace1Component,
+    InfoGameComponent
   ],
   imports: [
     BrowserModule,
