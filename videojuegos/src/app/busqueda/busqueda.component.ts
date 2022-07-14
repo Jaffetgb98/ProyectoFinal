@@ -9,19 +9,17 @@ import { ServicioJuegosService } from '../servicio-juegos.service';
 })
 export class BusquedaComponent implements OnInit {
   valorLink:string=""
-  infoApiSearch:string=""
+  infoApiSearch:any=""
 
   constructor(private route:ActivatedRoute, private servicio:ServicioJuegosService) {
-    this.route.params.subscribe((date:any)=>{
-      this.valorLink=date.id
+    this.route.params.subscribe((data:any)=>{
+      this.valorLink=data.id
       this.servicio.getInfoBusqueda(this.valorLink).subscribe((info:any)=>{
         this.infoApiSearch=info
       })
     })
 
   }
-
-
   ngOnInit(): void {
   }
 

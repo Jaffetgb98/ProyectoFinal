@@ -1,1 +1,2 @@
-<p>busqueda works!</p>
+<app-tarjetas *ngFor="let juego of infoApiSearch.results"
+[nombreJuego]="juego.name"  [imagenJuego]="juego.background_image"></app-tarjetas>
