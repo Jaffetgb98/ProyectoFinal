@@ -47,7 +47,7 @@ section{
     margin-bottom: 10px;
 }
 
-.tarjet .contenido a{
+.tarjet .contenido button{
     text-decoration: none;
     display: inline-block;
     padding: 10px;
@@ -58,7 +58,7 @@ section{
     transition: all 400ms ease;
 }
 
-.tarjet .contenido a:hover{
+.tarjet .contenido button:hover{
     background: #207d7f;
     color: white;
 }

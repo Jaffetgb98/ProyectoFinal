@@ -11,7 +11,7 @@ const routes: Routes = [
   {path:"link1", component:Enlace1Component},
   {path:"nav", component:NavbarComponent},
   {path:"search/:id", component:BusquedaComponent},
-  {path:"info", component:InfoGameComponent},
+  {path:"info/:id", component:InfoGameComponent},
   {path:"principal", component:PrincipalComponent},
   {path:"", component:PrincipalComponent}
 ];
