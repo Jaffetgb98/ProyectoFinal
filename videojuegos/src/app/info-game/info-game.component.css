@@ -43,7 +43,7 @@ section{
 }
 
 .contenedor{
-    background-color: rgba(2, 58, 53, 0.9);
+    background-color: rgba(3, 128, 117, 0.9);
     color: white;
     border-radius: 30px;
 }
@@ -57,7 +57,7 @@ section{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .texto{
-    background-color: rgb(9, 134, 134);
+    background-color: rgb(3, 70, 70);
     border-radius: 20px;
     padding-bottom: 10px;
     margin-top: 20px;
