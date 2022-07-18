@@ -4,13 +4,16 @@
           <div class="titulo">
             <h1>{{informacionRecibida.name}}</h1>
             <h2>Released: {{informacionRecibida.released}}</h2>
+            <br>
+            <h3><span *ngFor="let genero of informacionRecibida.genres"> {{genero.name}}</span></h3>
         </div>
     </div>
 <div class="contenedor">
     <div class="texto">
-        <p>Plataforms:</p>
-        <p>Publisher:</p>
-        <p>Website: {{informacionRecibida.website}}</p>
+        <p>Platforms: <span *ngFor="let plataforma of informacionRecibida.parent_platforms"> {{plataforma.platform.name}}</span></p>
+        <p>Publisher: <span *ngFor="let publicador of informacionRecibida.publishers">{{publicador.name}}</span></p>
+        <p>Developers: <span *ngFor="let desarrollador of informacionRecibida.developers"> {{desarrollador.name}}</span></p>
+        <p>Website: <a href="">{{informacionRecibida.website}}</a></p>
         <p [innerHTML]="informacionRecibida.description"></p>
     </div>
     <br>
